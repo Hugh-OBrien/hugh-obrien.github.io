@@ -38,6 +38,21 @@ $on-laptop:        800px;
 // Import partials from the `minima` theme.
 @import "minima";
 
+.site-header{
+  border-top: none;
+}
+
+.header-content{
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  max-width: none;
+  left: 0;
+  right: 0;
+}
+
+.description{
+  text-align: right;
+}
 .site-header, .site-footer{
     background-color: #986a48;
 }

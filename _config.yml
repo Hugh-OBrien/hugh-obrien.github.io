@@ -22,6 +22,9 @@ twitter_username: fuzzymooples
 github_username:  hugh-obrien
 instagram_username: hugh_o_brien
 
+
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+
 # Build settings
 markdown: kramdown
 theme: minima
