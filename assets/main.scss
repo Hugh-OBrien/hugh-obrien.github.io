@@ -53,15 +53,17 @@ $on-laptop:        800px;
 .description{
   text-align: right;
 }
-.site-header, .site-footer{
-    background-color: #986a48;
-}
 .site-footer{
-    background-color: #c5966b;
-    a {
-	color: #424242;
-    }
+  background-image: url(/assets/images/head.JPG);
+  background-color: #c5966b;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-top: none;
+  a {
+    color: #424242;
+  }
 }
 #header-img{
-    width: 100%;
+  width: 100%;
 }
