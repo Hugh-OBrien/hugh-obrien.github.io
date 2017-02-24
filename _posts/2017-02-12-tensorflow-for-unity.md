@@ -5,8 +5,11 @@ date:   2017-02-12
 categories: blog
 ---
 
-I've been thinking for a while about how best to combine machine learning knowledge I've built up and my other hobby - machine learning. To this end I've been looking into using Tensorflow with Unity3d. I forsee a lot of issues around how this would perform at runtime, along with cross platform issues issues down the road.
+I've been thinking for a while about how best to combine machine learning knowledge I've built up and my other hobby - making video games. To this end I've been looking into using Tensorflow with Unity3d. I forsee a lot of issues around performance at runtime, along with cross platform issues issues down the road.
+
 As a start here is a quick rundown of compiling Tensorflow to run a trained graph from a C# Unity script using the C++ api.
+
+---
 
 <!--more-->
 
@@ -143,7 +146,7 @@ cc_binary(
 If you keep this inside the `loader` folder with the cc file we can build from that folder using `bazel build :loader`. The actual so we need will end up
 
 
-### 3: Running in Unity Editor
+### 3: Running in the Unity Editor
 You can access the shared library using the `[DllImport ...]` statement for C#, it doesn't matter this isn't a dll! This works the same as any Unity plugin, I have it in `assets/plugins` Here's my very simple unity script:
 ```
 public class PluginImport : MonoBehaviour {
