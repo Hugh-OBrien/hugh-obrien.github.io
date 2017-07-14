@@ -4,11 +4,13 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Montserrat", sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+$footer-height: 110px;
 
 $spacing-unit:     30px;
 
@@ -42,6 +44,17 @@ $on-laptop:        800px;
   border-top: none;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page-content{
+  flex: 1 0 auto;
+  margin-bottom: 40px;
+}
+
 .header-content{
   background-color: rgba(0,0,0,0.4);
   position: fixed;
@@ -56,12 +69,17 @@ $on-laptop:        800px;
 .site-footer{
   background-image: url(/assets/images/head.JPG);
   background-color: #c5966b;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  border-top: none;
+  height: $footer-height;
   a {
     color: #424242;
+  }
+  @include media-query($on-laptop) {
+    height: 160px;
+  }
+
+  @include media-query($on-palm) {
+    height: auto;
+    position: relative;
   }
 }
 #header-img{
