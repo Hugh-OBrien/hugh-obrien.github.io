@@ -10,7 +10,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$footer-height: 110px;
+$footer-height: 120px;
 
 $spacing-unit:     30px;
 
@@ -44,15 +44,18 @@ $on-laptop:        800px;
   border-top: none;
 }
 
+html{
+  height: 100%;
+}
 body{
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .page-content{
-  flex: 1 0 auto;
-  margin-bottom: 40px;
+  flex: 1;
+  flex-direction: column;
 }
 
 .header-content{
@@ -70,6 +73,8 @@ body{
   background-image: url(/assets/images/head.JPG);
   background-color: #c5966b;
   height: $footer-height;
+  flex: none;
+
   a {
     color: #424242;
   }
