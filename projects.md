@@ -9,9 +9,9 @@ An incomplete list of ongoing current personal projects. Only things far enough 
 <br/>
 
 
-## Previously in Europe
+## [Previously in Europe](http://previouslyineurope.eu)
 
-I make a weekly podcast with Ciaran Dold about European Politics. I made a small site for it which lives [here](previouslyineurope.eu).
+I make a weekly podcast with Ciaran Dold about European Politics. I made a small site for it which lives [here](http://previouslyineurope.eu).
 
 The site is intended to host some data visualisations relevant to current events... they'll mostly be maps
 
