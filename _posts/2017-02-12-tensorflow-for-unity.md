@@ -7,14 +7,13 @@ categories: blog
 
 I've been thinking for a while about how best to combine machine learning knowledge I've built up and my other hobby - making video games. To this end I've been looking into using Tensorflow with Unity3d. I forsee a lot of issues around performance at runtime, along with cross platform issues issues down the road.
 
-As a start here is a quick rundown of compiling Tensorflow to run a trained graph from a C# Unity script using the C++ api.
-
----
-
-<!--more-->
 
 ![Tensor-and-unity]({{ site.url }}/assets/images/tensor-unity.png)
 
+<!--more-->
+As a start here is a quick rundown of compiling Tensorflow to run a trained graph from a C# Unity script using the C++ api.
+
+---
 
 ### 1. Getting a Graph to Use
 The idea here is to keep it to a bare minimum for what you need. The goal here is to make sure we can get TF will run at all rather than spending time making it do something useful. For these first couple of steps I borrowed heavily from [Jim Flemming's excellent Medium post](https://medium.com/jim-fleming/loading-a-tensorflow-graph-with-the-c-api-4caaff88463f#) on the basics of using the C++ api, which we'll need. Using a simple python script you can generate a protobuf file to store your graph, I used:

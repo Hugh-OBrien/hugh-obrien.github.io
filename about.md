@@ -13,7 +13,7 @@ This site lagrely serves for my own use to motivate progress on personal project
 Projects tend to relate to:
 
 - Machine Learning: I've used Tensorflow and Caffe in a university setting and continue to do so in my spare time
-- Web: I've worked with Django, Rails, Node and Jekyll (what this site is on).
+- Web: I've worked with Django, Rails, Node and Jekyll (what this site is on)
 - Game Design
 - Algorithmically Generated Art... coming soon...
 

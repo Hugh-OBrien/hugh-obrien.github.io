@@ -72,7 +72,7 @@ body{
 }
 .site-footer{
   background-image: url(/assets/images/head.JPG);
-  background-color: #c5966b;
+  background-color: #9E9E9E;
 	border: none;
   height: $footer-height;
   flex: none;
@@ -91,4 +91,10 @@ body{
 }
 #header-img{
   width: 100%;
+}
+.post-exerpt{
+	font-size: 20px;
+}
+.post-link{
+	font-size: 32px;
 }
