@@ -6,19 +6,8 @@ permalink: /about/
 
 I'm a software developer currently working at [Overleaf](https://www.overleaf.com/) in London.
 
-Long ago I got a psychology degree at Trinity College Dublin with great ambitions to work in the field in some capacity. After that I worked in scientific publishing for a couple of years at PLOS, an open access non-profit publisher.
+I have a balechors in psychology from Trinity College Dublin and a masters in computer science from Imperial College London. Between the two I worked at [PLOS](https://www.plos.org/) in publications.
 
-In 2016 I left the glamorous world of publishing to go do something completely different. I got my MSc in computer science at Imperial College London with a final project working on deep learning applications for medical imaging.
+This site lagrely serves for my own use to motivate progress on personal projects. It's also worked out as the logical place to keep progress and results/links.
 
-In my spare time I sometimes make stuff and sometimes I post it here. Things I'm vaguely working on usually include:
-- Web stuff
-- Machine learning
-- Video games
-- Audio (currenly spending some time messing around with Ardour plugins...)
-- Combinations of the above
-
-This site mainly exists to drive me to finish up projects and make vague progess on my to do lists; however if you find yourself here for whatever reason feel free to contact me about anything on here or related things
-<br/>
-<br/>
-<br/>
-
+If anyone finds any of this useful or interesting please feel free to reach out, it's been cool to hear back from people about things I've put on here. Email and some social media in the footer.
