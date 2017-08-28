@@ -3,6 +3,7 @@ layout: post
 title:  "Compiling Tensorflow for Unity3d"
 date:   2017-02-12
 categories: blog
+head_image: "/assets/images/tensor-unity.png"
 ---
 
 I've been thinking for a while about how best to combine machine learning knowledge I've built up and my other hobby - making video games. To this end I've been looking into using Tensorflow with Unity3d. I forsee a lot of issues around performance at runtime, along with cross platform issues issues down the road.
