@@ -4,7 +4,8 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Montserrat", sans-serif;
+$base-font-family: 'Montserrat', sans-serif;
+$secondary-font-family: 'Rokkitt', serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -61,7 +62,6 @@ body{
 
 .header-content{
   background-color: rgba(0,0,0,0.4);
-  position: fixed;
   max-width: none;
   left: 0;
   right: 0;
@@ -94,7 +94,17 @@ body{
 }
 .post-exerpt{
 	font-size: 20px;
+  img{
+    padding-top: 20px;
+  }
 }
 .post-link{
 	font-size: 32px;
+}
+.post-link:visited{
+  color: black;
+}
+.post-content{
+  font-family: $secondary-font-family;
+  font-size: 18px;
 }
