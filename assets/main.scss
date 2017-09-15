@@ -107,4 +107,7 @@ body{
 .post-content{
   font-family: $secondary-font-family;
   font-size: 18px;
+  h1, h2, h3 {
+    font-family: $base-font-family;
+  }
 }
