@@ -11,13 +11,60 @@
 	</svg>
       </span>
       <div class="trigger">
-	{% for my_page in site.pages %}
-	{% if my_page.title %}
-	<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-	{% endif %}
-	{% endfor %}
+	       {% for my_page in site.pages %}
+	       {% if my_page.title %}
+	       <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+	       {% endif %}
+	       {% endfor %}
       </div>
     </nav>
 
   </div>
+
+  <!-- this is the nonsense that makes the cursor selector work -->
+  <script>
+   function getCookie(cname) {
+     var name = cname + "=";
+     var ca = document.cookie.split(';');
+     for(var i = 0; i < ca.length; i++) {
+       var c = ca[i];
+       while (c.charAt(0) == ' ') {
+         c = c.substring(1);
+       }
+       if (c.indexOf(name) == 0) {
+         return c.substring(name.length, c.length);
+       }
+     }
+     return 0;
+   }
+   function setCookie(cname, cvalue, exdays) {
+     var d = new Date();
+     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+     var expires = "expires="+d.toUTCString();
+     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+   }
+   // cursor-picker
+   const cursors = ["default.cur",
+                    "cur111.png",
+                    "nat816.cur",
+                    "nyan.png",
+                    "panda.gif"]
+   // initialise the cursor index
+   var curIndex = getCookie('cursorIndex');
+
+   function updateCursor(){
+     if(curIndex === 0 || curIndex == '0'){
+       document.body.style.cursor = "default";
+     }else{
+       var setTo = "url('/assets/cursors/" + cursors[curIndex] + "'), default";
+       document.body.style.cursor = setTo;
+     }
+
+     if(document.getElementById("cursor-img")){
+       populateSelector();
+     }
+   }
+   updateCursor();
+  </script>
+  <!-- this is the end of the cursor selector nonsense -->
 </header>

@@ -111,3 +111,17 @@ body{
     font-family: $base-font-family;
   }
 }
+
+#cursor-pick {
+  border-color: darkgrey;
+  border-radius: 50%;
+  border-style: solid;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+}
+#cursor-img {
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}

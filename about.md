@@ -18,3 +18,34 @@ Projects tend to relate to:
 - Algorithmically Generated Art... coming soon...
 
 If anyone finds any of this useful or interesting please feel free to reach out, it's been cool to hear back from people about things I've put on here. Email and some social media in the footer.
+
+Here's a cursor selector:
+<div id="cursor-pick">
+  <img id="cursor-img" src="">
+</div>
+
+<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+</script>
+
+<script>
+ $("#cursor-pick").click(function(){
+   curIndex++;
+   if(curIndex === cursors.length){
+     curIndex = 0;
+   }
+   updateCursor();
+   setCookie("cursorIndex", curIndex, 5)
+ });
+
+ function populateSelector() {
+   if(curIndex === 0 || curIndex == '0'){
+     $('#cursor-img').attr("src","/assets/cursors/" + cursors[0]);
+   }else{
+     $('#cursor-img').attr("src","/assets/cursors/" + cursors[curIndex]);
+   }
+ }
+ populateSelector();
+</script>
