@@ -143,7 +143,7 @@ cc_binary(
     ]
 )
 ```
-If you keep this inside the `loader` folder with the cc file we can build from that folder using `bazel build :loader`. The actual so we need will end up
+If you keep this inside the `loader` folder with the cc file we can build from that folder using `bazel build :loader.so`. The actual so we need will end up
 
 
 ### 3: Running in the Unity Editor
