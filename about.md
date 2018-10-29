@@ -4,22 +4,19 @@ title: About
 permalink: /about/
 ---
 
-I'm a software developer currently working at [Overleaf](https://www.overleaf.com/) in London.
+I'm a [PhD candidate at Kings College London](http://www.imagingcdt.com/students/student-profiles/hugh-obrien) working imaging cardiac scar using CT via machine learning and other advanced processing techniques.
 
-I have a balechors in psychology from Trinity College Dublin and a masters in computer science from Imperial College London. Between the two I worked at [PLOS](https://www.plos.org/) in publications.
+I also work part time at [Overleaf](https://www.overleaf.com/).
 
-This site lagrely serves for my own use to motivate progress on personal projects. It's also worked out as the logical place to keep progress and results/links.
+I have a BA in psychology from Trinity College Dublin and an MSc in computer science from Imperial College London. Between the two I worked at [PLOS](https://www.plos.org/) on a couple of their journals.
 
-Projects tend to relate to:
+This site lagrely serves for my own use to motivate progress on personal projects and is updated infrequently.
 
-- Machine Learning: I've used Tensorflow and Caffe in a university setting and continue to do so in my spare time
-- Web: I've worked with Django, Rails, Node and Jekyll (what this site is on)
-- Game Design
-- Algorithmically Generated Art... coming soon...
+If you find any of this useful or interesting please feel free to reach out, it's been cool to hear back from people about things I've put on here already. Email and some social media in the footer for anyone wanting to get in touch.
 
-If anyone finds any of this useful or interesting please feel free to reach out, it's been cool to hear back from people about things I've put on here. Email and some social media in the footer.
+----------
 
-Here's a cursor selector:
+For some mid 2000s nostalgia here's a cursor selector for the site:
 <div id="cursor-pick">
   <img id="cursor-img" src="">
 </div>
